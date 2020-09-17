@@ -9,14 +9,18 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component'
 
-import { ROUTES } from './app.routes'
+import { ROUTES } from './app.routes';
+import { RestaurantsComponent } from './restaurants/restaurants.component'
+import { RestaurantComponent } from './restaurants/restaurant/restaurant.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    RestaurantsComponent,
+    RestaurantComponent
   ],
   imports: [
     BrowserModule,
